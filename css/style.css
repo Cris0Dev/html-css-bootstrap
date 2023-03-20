@@ -1,0 +1,35 @@
+.form-producto{
+    max-width: 70%;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    padding:40px;
+}
+
+@media (max-width: 576px){
+    .form-producto{
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
+/* 
+pagina de guardado */
+
+.box-save{
+    width: 500px;
+    height: 200px;
+    margin: auto;
+    background-color: #dcdcdf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10rem;
+    border-radius: 10px;
+}
+.box-save h1{
+    color: #002280;
+    font-size: 25px;
+}
